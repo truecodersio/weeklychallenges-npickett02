@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/michaeldoyle/.nuget/packages/": {},
+    "/Users/nicholaspickett/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "projectUniqueName": "/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
       "projectName": "ChallengesWithTestsMark8",
-      "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
-      "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-      "outputPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/obj/",
+      "projectPath": "/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "packagesPath": "/Users/nicholaspickett/.nuget/packages/",
+      "outputPath": "/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/michaeldoyle/.config/NuGet/NuGet.Config"
+        "/Users/nicholaspickett/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"

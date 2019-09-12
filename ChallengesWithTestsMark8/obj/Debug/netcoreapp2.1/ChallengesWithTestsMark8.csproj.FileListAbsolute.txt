@@ -31,3 +31,14 @@ C:/Users/Chip/source/repos/Mark8ChallengesWithTests/ChallengesWithTestsMark8/obj
 /Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.AssemblyInfo.cs
 /Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
 /Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.deps.json
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.runtimeconfig.json
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.runtimeconfig.dev.json
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.csprojAssemblyReference.cache
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.AssemblyInfoInputs.cache
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.AssemblyInfo.cs
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
+/Users/nicholaspickett/repos/weeklychallenges-npickett02/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
