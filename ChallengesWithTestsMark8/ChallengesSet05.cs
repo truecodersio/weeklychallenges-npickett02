@@ -18,76 +18,91 @@ namespace ChallengesWithTestsMark8
                 {
                     businesses[i].Name = "CLOSED";
                 }
+
             }
         }
 
         public bool IsAscendingOrder(int[] numbers)
         {
             if (numbers == null)
+            {
                 return false;
-
+            }
+            if (numbers.Length == 0)
+            {
+                return false;
+            }
             for (int i = 1; i < numbers.Length; i++)
             {
                 if (numbers[i] < numbers[i - 1])
                 {
                     return false;
                 }
-            }
+                
 
+            }
             return true;
+           
         }
 
         public int SumElementsThatFollowAnEven(int[] numbers)
         {
             int sum = 0;
-
+            if (numbers == null)
+            {
+                return 0;
+            }
             for (int i = 1; i < numbers.Length; i++)
             {
                 if (numbers[i - 1] % 2 == 0)
                 {
                     sum += numbers[i];
                 }
-            }
 
+            }
             return sum;
         }
 
         public string TurnWordsIntoSentence(string[] words)
         {
-            if (words == null || words.Length == 0)
+            if (words == null || words.Length == 0 || words.Length == 1)
             {
                 return "";
             }
-
             string sentence = "";
-
-            foreach (string word in words)
+            int counter = 0;
+            foreach (string str in words)
             {
-                if (word.Trim().Length > 0)
+                if (str == " " || str == "")
                 {
-                    sentence += word.Trim() + " ";
+                    counter++;
+                    continue;
                 }
-            }
 
-            if (sentence.Length == 0)
-            {
-                return "";
-            }
+                string toAdd = str.Replace(" ", "");
+                sentence += toAdd;
 
-            sentence = sentence.Substring(0, sentence.Length - 1);
-            sentence += ".";
+                if (counter < words.Length - 1 && toAdd != "") sentence += " ";
+                else if (counter == words.Length - 1) sentence += ".";
+
+                counter++;
+            }
             return sentence;
         }
 
         public double[] GetEveryFourthElement(List<double> elements)
         {
             List<double> everyFourth = new List<double>();
+            double[] empty = new double[0];
 
-            for (int i = 3; i < elements.Count; i += 4)
+            if (elements == null)
+            {
+                return empty;
+            }
+            for (int i = 3; i < elements.Count; i +=4)
             {
                 everyFourth.Add(elements[i]);
             }
-
             return everyFourth.ToArray();
         }
 
@@ -95,15 +110,14 @@ namespace ChallengesWithTestsMark8
         {
             for (int i = 0; i < nums.Length; i++)
             {
-                for (int k = i + 1; k < nums.Length; k++)
+                for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if (nums[i] + nums[k] == targetNumber)
+                    if (nums[i] + nums[j] == targetNumber)
                     {
                         return true;
                     }
                 }
             }
-
             return false;
         }
     }
